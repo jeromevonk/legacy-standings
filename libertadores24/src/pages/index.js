@@ -1,4 +1,5 @@
 import * as React from 'react';
+import PropTypes from 'prop-types';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
@@ -46,3 +47,7 @@ function Index(props) {
 }
 
 export default withRouter(Index)
+
+Index.propTypes = {
+  matches: PropTypes.array.isRequired
+};
