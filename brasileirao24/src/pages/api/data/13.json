@@ -1,0 +1,112 @@
+[
+  {
+    "homeTeam": "Vasco",
+    "awayTeam": "Botafogo",
+    "homeScore": 1,
+    "awayScore": 1,
+    "date": "2024-06-29",
+    "time": "18:30",
+    "stadium": "São Januário",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Cuiabá",
+    "awayTeam": "Bragantino",
+    "homeScore": 1,
+    "awayScore": 1,
+    "date": "2024-06-29",
+    "time": "18:30",
+    "stadium": "Arena Pantanal",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Atlético-MG",
+    "awayTeam": "Atlético-GO",
+    "homeScore": 1,
+    "awayScore": 1,
+    "date": "2024-06-30",
+    "time": "11:00",
+    "stadium": "Arena MRV",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Grêmio",
+    "awayTeam": "Fluminense",
+    "homeScore": 1,
+    "awayScore": 0,
+    "date": "2024-06-30",
+    "time": "16:00",
+    "stadium": "Centenário",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "São Paulo",
+    "awayTeam": "Bahia",
+    "homeScore": 3,
+    "awayScore": 1,
+    "date": "2024-06-30",
+    "time": "16:00",
+    "stadium": "Morumbis",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Fortaleza",
+    "awayTeam": "Juventude",
+    "homeScore": 2,
+    "awayScore": 1,
+    "date": "2024-06-30",
+    "time": "16:00",
+    "stadium": "Castelão (CE)",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Vitória",
+    "awayTeam": "Athletico-PR",
+    "homeScore": 0,
+    "awayScore": 1,
+    "date": "2024-06-30",
+    "time": "18:30",
+    "stadium": "Barradão",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Flamengo",
+    "awayTeam": "Cruzeiro",
+    "homeScore": 2,
+    "awayScore": 1,
+    "date": "2024-06-30",
+    "time": "18:30",
+    "stadium": "Maracanã",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Criciúma",
+    "awayTeam": "Internacional",
+    "homeScore": 1,
+    "awayScore": 1,
+    "date": "2024-06-30",
+    "time": "18:30",
+    "stadium": "Heriberto Hülse",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Palmeiras",
+    "awayTeam": "Corinthians",
+    "homeScore": 2,
+    "awayScore": 0,
+    "date": "2024-07-01",
+    "time": "20:00",
+    "stadium": "Allianz Parque",
+    "started": true,
+    "finished": true
+  }
+]

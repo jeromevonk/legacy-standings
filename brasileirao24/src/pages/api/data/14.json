@@ -1,0 +1,112 @@
+[
+  {
+    "homeTeam": "Cuiabá",
+    "awayTeam": "Botafogo",
+    "homeScore": 1,
+    "awayScore": 2,
+    "date": "2024-07-03",
+    "time": "19:00",
+    "stadium": "Arena Pantanal",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Vasco",
+    "awayTeam": "Fortaleza",
+    "homeScore": 2,
+    "awayScore": 0,
+    "date": "2024-07-03",
+    "time": "20:00",
+    "stadium": "São Januário",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Criciúma",
+    "awayTeam": "Cruzeiro",
+    "homeScore": 1,
+    "awayScore": 0,
+    "date": "2024-07-03",
+    "time": "20:00",
+    "stadium": "Heriberto Hülse",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Atlético-MG",
+    "awayTeam": "Flamengo",
+    "homeScore": 2,
+    "awayScore": 4,
+    "date": "2024-07-03",
+    "time": "21:30",
+    "stadium": "Arena MRV",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Bragantino",
+    "awayTeam": "Atlético-GO",
+    "homeScore": 3,
+    "awayScore": 1,
+    "date": "2024-07-03",
+    "time": "21:30",
+    "stadium": "Nabi Abi Chedid",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Athletico-PR",
+    "awayTeam": "São Paulo",
+    "homeScore": 1,
+    "awayScore": 2,
+    "date": "2024-07-03",
+    "time": "21:30",
+    "stadium": "Ligga Arena",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Grêmio",
+    "awayTeam": "Palmeiras",
+    "homeScore": 2,
+    "awayScore": 2,
+    "date": "2024-07-04",
+    "time": "19:00",
+    "stadium": "Centenário",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Bahia",
+    "awayTeam": "Juventude",
+    "homeScore": 2,
+    "awayScore": 0,
+    "date": "2024-07-04",
+    "time": "19:00",
+    "stadium": "Casa de Apostas Arena Fonte Nova",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Fluminense",
+    "awayTeam": "Internacional",
+    "homeScore": 1,
+    "awayScore": 1,
+    "date": "2024-07-04",
+    "time": "20:00",
+    "stadium": "Maracanã",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Corinthians",
+    "awayTeam": "Vitória",
+    "homeScore": 3,
+    "awayScore": 2,
+    "date": "2024-07-04",
+    "time": "20:00",
+    "stadium": "Neo Química Arena",
+    "started": true,
+    "finished": true
+  }
+]

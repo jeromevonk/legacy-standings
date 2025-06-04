@@ -1,0 +1,112 @@
+[
+  {
+    "homeTeam": "Criciúma",
+    "awayTeam": "Botafogo",
+    "homeScore": 2,
+    "awayScore": 1,
+    "date": "2024-06-22",
+    "time": "16:00",
+    "stadium": "Heriberto Hülse",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Grêmio",
+    "awayTeam": "Internacional",
+    "homeScore": 0,
+    "awayScore": 1,
+    "date": "2024-06-22",
+    "time": "17:30",
+    "stadium": "Couto Pereira",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Cuiabá",
+    "awayTeam": "Atlético-GO",
+    "homeScore": 0,
+    "awayScore": 0,
+    "date": "2024-06-22",
+    "time": "18:30",
+    "stadium": "Arena Pantanal",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Vasco",
+    "awayTeam": "São Paulo",
+    "homeScore": 4,
+    "awayScore": 1,
+    "date": "2024-06-22",
+    "time": "21:30",
+    "stadium": "São Januário",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Bahia",
+    "awayTeam": "Cruzeiro",
+    "homeScore": 4,
+    "awayScore": 1,
+    "date": "2024-06-23",
+    "time": "16:00",
+    "stadium": "Casa de Apostas Arena Fonte Nova",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Fluminense",
+    "awayTeam": "Flamengo",
+    "homeScore": 0,
+    "awayScore": 1,
+    "date": "2024-06-23",
+    "time": "16:00",
+    "stadium": "Maracanã",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Athletico-PR",
+    "awayTeam": "Corinthians",
+    "homeScore": 1,
+    "awayScore": 1,
+    "date": "2024-06-23",
+    "time": "16:00",
+    "stadium": "Ligga Arena",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Atlético-MG",
+    "awayTeam": "Fortaleza",
+    "homeScore": 1,
+    "awayScore": 1,
+    "date": "2024-06-23",
+    "time": "18:30",
+    "stadium": "Arena MRV",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Palmeiras",
+    "awayTeam": "Juventude",
+    "homeScore": 3,
+    "awayScore": 1,
+    "date": "2024-06-23",
+    "time": "18:30",
+    "stadium": "Allianz Parque",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Bragantino",
+    "awayTeam": "Vitória",
+    "homeScore": 2,
+    "awayScore": 1,
+    "date": "2024-06-23",
+    "time": "18:30",
+    "stadium": "Nabi Abi Chedid",
+    "started": true,
+    "finished": true
+  }
+]

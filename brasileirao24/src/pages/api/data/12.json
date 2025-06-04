@@ -1,0 +1,112 @@
+[
+  {
+    "homeTeam": "Cruzeiro",
+    "awayTeam": "Athletico-PR",
+    "homeScore": 2,
+    "awayScore": 0,
+    "date": "2024-06-26",
+    "time": "19:00",
+    "stadium": "Mineirão",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Botafogo",
+    "awayTeam": "Bragantino",
+    "homeScore": 2,
+    "awayScore": 1,
+    "date": "2024-06-26",
+    "time": "19:00",
+    "stadium": "Nilton Santos (Engenhão)",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Corinthians",
+    "awayTeam": "Cuiabá",
+    "homeScore": 1,
+    "awayScore": 1,
+    "date": "2024-06-26",
+    "time": "20:00",
+    "stadium": "Neo Química Arena",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Atlético-GO",
+    "awayTeam": "Grêmio",
+    "homeScore": 1,
+    "awayScore": 1,
+    "date": "2024-06-26",
+    "time": "20:00",
+    "stadium": "Antônio Accioly",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Juventude",
+    "awayTeam": "Flamengo",
+    "homeScore": 2,
+    "awayScore": 1,
+    "date": "2024-06-26",
+    "time": "20:00",
+    "stadium": "Alfredo Jaconi",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Internacional",
+    "awayTeam": "Atlético-MG",
+    "homeScore": 1,
+    "awayScore": 2,
+    "date": "2024-06-26",
+    "time": "21:30",
+    "stadium": "Heriberto Hülse",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Bahia",
+    "awayTeam": "Vasco",
+    "homeScore": 2,
+    "awayScore": 1,
+    "date": "2024-06-26",
+    "time": "21:30",
+    "stadium": "Casa de Apostas Arena Fonte Nova",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Fortaleza",
+    "awayTeam": "Palmeiras",
+    "homeScore": 3,
+    "awayScore": 0,
+    "date": "2024-06-26",
+    "time": "21:30",
+    "stadium": "Castelão (CE)",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "Fluminense",
+    "awayTeam": "Vitória",
+    "homeScore": 0,
+    "awayScore": 1,
+    "date": "2024-06-27",
+    "time": "19:00",
+    "stadium": "Maracanã",
+    "started": true,
+    "finished": true
+  },
+  {
+    "homeTeam": "São Paulo",
+    "awayTeam": "Criciúma",
+    "homeScore": 2,
+    "awayScore": 1,
+    "date": "2024-06-27",
+    "time": "20:00",
+    "stadium": "Morumbis",
+    "started": true,
+    "finished": true
+  }
+]
