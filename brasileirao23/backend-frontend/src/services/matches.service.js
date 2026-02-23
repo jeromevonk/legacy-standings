@@ -1,14 +1,11 @@
 import { fetchWrapper } from 'src/helpers';
 
+const baseUrl = `${typeof window === 'undefined' ? process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api' : '/api'}/matches`;
+
 export const matchesService = {
   getMatches,
 };
 
-async function getMatches() {
-  // On the server (getInitialProps), load the JSON directly — no HTTP call needed.
-  // On the client, use the API route via fetchWrapper.
-  if (typeof window === 'undefined') {
-    return require('../pages/api/results.json');
-  }
-  return fetchWrapper.get('/api/matches');
+function getMatches() {
+  return fetchWrapper.get(baseUrl);
 }

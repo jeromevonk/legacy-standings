@@ -1,3 +1,5 @@
+const baseUrl = `${typeof window === 'undefined' ? process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api' : '/api'}/matches`;
+
 export const matchesService = {
   getMatches,
   getCurrentRound,
@@ -8,12 +10,7 @@ export const matchesService = {
 
 async function getMatches() {
   try {
-    // On the server (getInitialProps), read JSON files directly — no HTTP call needed.
-    // On the client, use the API route.
-    if (typeof window === 'undefined') {
-      return await getMatchesFromFiles();
-    }
-    const response = await fetch('/api/matches');
+    const response = await fetch(baseUrl);
     if (!response.ok) {
       throw new Error('Failed to fetch matches');
     }
@@ -23,34 +20,6 @@ async function getMatches() {
     throw error;
   }
 }
-
-async function getMatchesFromFiles() {
-  const fs = await import('fs');
-  const path = await import('path');
-  const match_helper = await import('../helpers/match_helper');
-
-  const responseData = {};
-  const requests = [];
-
-  for (let i = 1; i <= 38; i++) {
-    requests.push(
-      (async (round) => {
-        const filePath = path.join(process.cwd(), `src/pages/api/data/${round}.json`);
-        if (fs.existsSync(filePath)) {
-          const data = fs.readFileSync(filePath, 'utf8');
-          responseData[round] = JSON.parse(data);
-        } else {
-          responseData[round] = await match_helper.getRoundFromAPI(round);
-        }
-      })(i)
-    );
-  }
-
-  await Promise.all(requests);
-  return responseData;
-}
-
-
 function getCurrentRound(matches) {
   for (let i = 38; i > 0; i--) {
     // Get a round
