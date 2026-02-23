@@ -27,7 +27,7 @@
         "react-hook-form": "^7.33.1"
     },
     "devDependencies": {
-        "eslint": "latest",
-        "eslint-config-next": "^0.2.4"
+        "eslint": "^9.0.0",
+        "eslint-config-next": "16.1.6"
     }
 }
