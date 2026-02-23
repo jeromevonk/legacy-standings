@@ -1,20 +1,15 @@
-// fetch() in Node.js (SSR/getInitialProps) requires an absolute URL.
-// On the client, a relative path is sufficient.
-function getApiUrl() {
-  if (typeof window !== 'undefined') return '/api/matches';
-  const host = process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : 'http://localhost:3000';
-  return `${host}/api/matches`;
-}
-
 export const matchesService = {
   getMatches,
 };
 
 async function getMatches() {
   try {
-    const response = await fetch(getApiUrl());
+    // On the server (getInitialProps), load the JSON directly — no HTTP call needed.
+    // On the client, use the API route.
+    if (typeof window === 'undefined') {
+      return require('../pages/api/results.json');
+    }
+    const response = await fetch('/api/matches');
     if (!response.ok) {
       throw new Error('Failed to fetch matches');
     }
