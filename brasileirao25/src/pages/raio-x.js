@@ -1,0 +1,25 @@
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import Container from '@mui/material/Container';
+import { Box, Typography } from '@mui/material';
+import { withRouter } from 'next/router';
+import RaioXTable from '../components/RaioXTable';
+
+function RaioX({ matches }) {
+    return (
+        <Container
+            maxWidth="xl"
+            sx={{ paddingLeft: '12px', paddingRight: '12px' }}
+        >
+            <Box sx={{ my: 2 }}>
+                <RaioXTable matches={matches} />
+            </Box>
+        </Container>
+    );
+}
+
+export default withRouter(RaioX);
+
+RaioX.propTypes = {
+    matches: PropTypes.object.isRequired,
+};
