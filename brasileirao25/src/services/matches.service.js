@@ -1,7 +1,4 @@
-import getConfig from 'next/config';
-
-const { publicRuntimeConfig } = getConfig();
-const baseUrl = `${publicRuntimeConfig.apiUrl}/matches`;
+const baseUrl = '/api/matches';
 
 export const matchesService = {
   getMatches,

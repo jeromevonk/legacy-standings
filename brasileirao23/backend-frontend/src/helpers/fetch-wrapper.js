@@ -1,5 +1,3 @@
-import getConfig from 'next/config';
-
 export const fetchWrapper = {
   get,
 };

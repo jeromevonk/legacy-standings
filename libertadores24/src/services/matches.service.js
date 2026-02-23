@@ -1,14 +1,10 @@
-import getConfig from 'next/config';
-
 export const matchesService = {
   getMatches,
 };
 
 async function getMatches() {
   try {
-    const { publicRuntimeConfig } = getConfig();
-    const baseUrl = `${publicRuntimeConfig.apiUrl}/matches`;
-    const response = await fetch(baseUrl);
+    const response = await fetch('/api/matches');
     if (!response.ok) {
       throw new Error('Failed to fetch matches');
     }
