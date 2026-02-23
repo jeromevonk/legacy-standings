@@ -19,7 +19,7 @@
         "@mui/material": "^5.14.18",
         "@mui/x-date-pickers": "^5.0.20",
         "date-fns": "^2.29.1",
-        "next": "latest",
+        "next": "^16.1.6",
         "prop-types": "latest",
         "react": "latest",
         "react-dom": "latest",
@@ -28,6 +28,6 @@
     },
     "devDependencies": {
         "eslint": "latest",
-        "eslint-config-next": "latest"
+        "eslint-config-next": "^0.2.4"
     }
 }
